@@ -30,6 +30,7 @@ export default {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    // This config causes the issue.
+    baseUrl: "./"
   },
 };
